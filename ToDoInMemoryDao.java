@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author bacag
  */
-@Repository
+//@Repository
 public class ToDoInMemoryDao implements ToDoDao {
 
     private static final List<ToDo> todos = new ArrayList<>();
